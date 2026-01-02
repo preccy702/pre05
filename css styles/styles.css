@@ -27,14 +27,17 @@ body{
   height: 27vh;
   background: url("../c16.jpg") center/cover no-repeat;
   position: relative;
-  animation: heroslider 11s infinite;
+  animation: heroslider 13s infinite;
 }
 @keyframes heroslider{
-  0%{
+  10%{
     background-image: url("../fc1.jpeg");
   }
   33%{
     background-image: url("../fc2.jpg");
+  }
+  50%{
+    background-image: url("../yb.JPG");
   }
   66%{
     background-image: url("../fc3.webp");
@@ -80,7 +83,15 @@ button{
 button:hover{
   background: rgba(245, 245, 245, 0.377);
 }
+.imgg{
+  display: flex;
+  height: 8rem;
+  position: absolute;
+  right: 2px;
+  bottom: 15px;
+}
 .about{
+
   display: flex;
   justify-content: space-around;
   align-items: center;
